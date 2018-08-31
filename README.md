@@ -34,8 +34,8 @@ Also in your root gradle file
 ### Java
 ```java
   
-    PosterSlider posterSlider = (posterSlider) findViewById(R.id.poster_slider);
-    List<Poster> posters=new ArrayList<>();
+    PosterSlider posterSlider = (PosterSlider) findViewById(R.id.poster_slider);
+    ArrayList<Poster> posters=new ArrayList<>();
     //add poster using remote url
     posters.add(new RemoteImage("Put poster image url here ..."));
     //add poster using resource drawable
